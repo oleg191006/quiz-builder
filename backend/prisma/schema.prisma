@@ -30,7 +30,7 @@ model Question {
   text    String
   options String?
   quizId  String
-  quiz    Quiz    @relation(fields: [quizId], references: [id])
+  quiz    Quiz    @relation(fields: [quizId], references: [id], onDelete: Cascade)
 
   @@map("questions")
 }
