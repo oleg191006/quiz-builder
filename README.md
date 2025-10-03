@@ -33,11 +33,11 @@ cd backend
 # -------------------------
 # Database Configuration
 # -------------------------
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
+POSTGRES_USER=your_user
+POSTGRES_PASSWORD=your_password
 POSTGRES_HOST=localhost
 POSTGRES_DATABASE=quiz
-POSTGRES_PORT ='5435'
+POSTGRES_PORT=5435
 DATABASE_URL="postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DATABASE}?schema=public"
 # -------------------------
 # Frontend URL (CORS)
